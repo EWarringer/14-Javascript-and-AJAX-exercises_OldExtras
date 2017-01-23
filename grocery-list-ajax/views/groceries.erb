@@ -1,0 +1,14 @@
+<h1>Grocery List</h1>
+
+<ul id="grocery-list">
+  <% groceries.each do |item| %>
+    <li class="item">
+      <%= item %>
+    </li>
+  <% end %>
+</ul>
+
+<form method="post" action="/groceries">
+  <input type="text" name="item">
+  <input type="submit" value="Add">
+</form>

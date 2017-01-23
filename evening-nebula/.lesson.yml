@@ -1,0 +1,17 @@
+---
+title: "Evening Nebula"
+type: "challenge"
+description: "Learn JS basics by getting a test suite to pass."
+visibility: "assign"
+tags: "evening-exercise, javascript, tdd"
+ignore:
+- "data/"
+- "lib/"
+- "node_modules/"
+- "tests/"
+- "CHANGELOG.md"
+- "evening-nebula.md"
+- "Gruntfile.js"
+- "help.txt"
+- "index.js"
+- "package.json"
